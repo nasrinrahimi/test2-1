@@ -8,9 +8,9 @@ public class Phone {
 		for(int i=0;i<3;i++) {
 			
 			Scanner input=new Scanner(System.in);
-			System.out.println("Enter Name "+ i + " : ");
+			System.out.println("Enter Name "+ i + " = ");
 			name_user[i]=input.nextLine();
-			System.out.println("Enter Phone " + i + " : ");
+			System.out.println("Enter Phone " + i + " = ");
 			phone_user[i]=input.nextLine();
 			
 		}
