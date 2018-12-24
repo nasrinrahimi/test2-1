@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Phone {
+	public static void main(String [] args)
+	{
+		String[] name_user =new String[3];
+		String[] phone_user =new String[3];
+		for(int i=0;i<3;i++) {
+			
+			Scanner input=new Scanner(System.in);
+			System.out.println("Enter Name "+ i + " : ");
+			name_user[i]=input.nextLine();
+			System.out.println("Enter Phone " + i + " : ");
+			phone_user[i]=input.nextLine();
+			
+		}
